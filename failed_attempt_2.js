@@ -23,3 +23,6 @@ function getAnswer() {
 console.log('Getting solutions...');
 var question = document.getElementById('main').getElementsByTagName('h1')[0].textContent;
 getAnswer();
+
+// failed: couldn't get answers with one request
+// (needed 1 request for quiz generation and 1 for showing answers)

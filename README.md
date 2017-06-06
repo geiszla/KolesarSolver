@@ -1,6 +1,8 @@
 # Kolesar Solver
 Ez a projekt két szkriptet tartalmaz: az egyik (Node.js alkalmazás) letölti a válaszokat az oldalról, a másik (Chrome bővítmény) pedig az quiz oldalra való navigáláskor megjelöli a helyes megoldást (amit a letöltött megoldások közül keres ki). A bővítmény mappában megtalálható egy előre letöltött megoldásokat tartalmazó JSON fájl, tehát a bővítmény önmagában is működik, a Node.js alkalmazást csak akkor kell futtatni, ha frissíteni akarod ezt a listát.
 
+A térképek esetében nem tudja megjelölni a jó megoldást.
+
 ## Chrome bővítmény telepítése
 1. Töltsd le a projekt fájlokat.
 2. Nyisd meg a Google Chrome bővítmények oldalát (chrome://extensions/).
@@ -18,3 +20,6 @@ Az alkalmazást csak akkor kell futtatni, ha frissíteni akarod a válasz listá
 5. Futtasd a `npm start` parancsot, hogy elindísd a megoldások letöltését.
 
 A megoldásokat az extension mappába, "answers.json" néven menti el.
+
+## Hibák
+Ha bármilyen hibát észlelsz az alkalmazással kapcsolatban, vagy kérésed van, nyiss egy új kérelmet [itt](https://github.com/geiszla/KolesarSolver/issues).
