@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Kolesar Solver",
+  "version": "0.1",
+  "content_scripts": [
+  {
+      "matches": ["http://kolesar.turistautak.hu/szmg/tortenelem/?*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "answers.json"
+  ]
+}
